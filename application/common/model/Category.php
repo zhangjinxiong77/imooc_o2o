@@ -36,6 +36,7 @@ class Category extends Model
         ];
 
         $order = [
+            'listorder' => 'desc',    //排序一节才加上此段代码
             'id'=>'desc',
         ];
 

@@ -14,6 +14,7 @@ class Category extends Validate{
     protected $scene = [
         'add' => ['name','parent_id','id'],
         'listorder' => ['id','listorder'],
+        'status' => ['id','status'],
     ];
     
 }
